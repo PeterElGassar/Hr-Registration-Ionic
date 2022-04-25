@@ -1,0 +1,107 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <!-- card 1 -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="primary"><span style="text-align: center;">what do you want to do with </span>
+        <br>
+        Resources-One ?
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label>
+            Account Type
+          </ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Employer</ion-label>
+          <ion-radio slot="start" value="Employer"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Candidate</ion-label>
+          <ion-radio slot="start" value="Candidate"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+
+
+    </ion-card-content>
+  </ion-card>
+<!-- card 2 -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="primary"><span style="text-align: center;">Contact</span></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Full Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Phone Number</ion-label>
+        <ion-input type="tel"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Confirm Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+
+    </ion-card-content>
+  </ion-card>
+<!-- card 3 -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="primary"><span style="text-align: center;">Address Information</span></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Full Address</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Country</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">City</ion-label>
+        <ion-input type="Text"></ion-input>
+      </ion-item>
+
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-button expand="block" fill="clear" color="primary">Register</ion-button>
+
+  </ion-card>
+
+</ion-content>
+
+
